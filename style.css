@@ -5,6 +5,11 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+  background: #eaebe6;
+}
+
+.orange-info {
+  color: #ff6f3f;
 }
 
 /* NAV */
@@ -55,52 +60,170 @@ nav a {
 #info {
   width: 100%;
   height: 100vh;
-  background: grey;
+  background: #eaebe6;
 
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#info h2 {
+  font-size: 6rem;
+  margin: 0;
+}
+
+#info-text {
+  margin: 0 5%;
+  max-width: 30%;
+}
+
+#info p {
+  font-size: 32px;
+}
+
+#info a {
+  color: black;
+  font-size: 2.7rem;
+}
+
+#info img {
+  margin: 0 10%;
+  width: 80%;
+  height: auto;
 }
 
 /* EXPLORE */
 #explore {
   width: 100%;
-  height: 130vh;
-  background: url("./img/Edited-3373.jpg");
+  height: 120vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/Edited-3373.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   display: flex;
   justify-content: center;
   text-align: center;
   color: white;
 }
 
+#explore h1 {
+  margin-top: 100px;
+  font-size: 6rem;
+}
+
+#explore p {
+  font-size: 2rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 /* TEAMS */
 #teams {
   width: 100%;
   height: 100vh;
-  background: grey;
+  background: #eaebe6;
 
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#teams h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+#teams-text {
+  margin: 0 5%;
+  max-width: 50%;
+}
+
+#teams p {
+  font-size: 32px;
+}
+
+#teams a {
+  color: black;
+  font-size: 2.7rem;
+}
+
+#teams img {
+  margin: 0 10%;
+  width: 80%;
+  height: auto;
 }
 
 /* PRESS */
 #press {
   width: 100%;
   height: 50vh;
-  background: orange;
+  background: #ff6f3f;
+  color: white;
+
+  display: flex;
+  justify-content: center;
 }
 
-/* PRESS */
+#press-content {
+  width: 80%;
+}
+
+#press h3 {
+  font-size: 2.3rem;
+}
+
+#press h3 {
+  font-size: 2rem;
+}
+
+#press p {
+  font-size: 1.5rem;
+}
+
+/* OTHER */
 #other {
   width: 100%;
   height: 100vh;
-  background: gray;
+  background: #eaebe6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#paths {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.col {
+  border: 1px solid black;
+  width: 30%;
+  margin: auto;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#other-pages {
+  display: flex;
+  flex-direction: row;
+}
+
+#other-pages div {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
 }
 
 /* FOOTER */
 
 footer {
   display: flex;
-  border-top: 1px solid gray;
+  border-top: 1px solid black;
+  background: #eaebe6;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
