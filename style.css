@@ -1,3 +1,14 @@
+/* FONTS */
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: url("fonts/Aleo/Aleo-Regular.otf") format("opentype");
+}
+
 /* GENERAL STYLES */
 
 @font-face {
@@ -242,13 +253,57 @@ nav a {
 }
 
 .col {
-  border: 1px solid black;
+  border: none;
   width: 30%;
   margin: auto;
-  height: 400px;
-
+  height: 100%;
+  background-color:white;
   display: flex;
   flex-direction: column;
+}
+
+.opp_img {
+  margin: auto;
+  max-width: 10rem;
+  margin-top: 2.5rem;
+}
+
+.opp_subtitle {
+  font-family: Aleo;
+  font-weight: 900;
+  margin: auto;
+  font-size: 1.9rem;
+  color: #213037;
+  margin-top: 1.5rem;
+  margin-bottom: .6rem;
+}
+
+.opp_text {
+  font-family: Avenir;
+  font-weight: bold;
+  line-height: 1.8rem;
+  margin: 2.5rem;
+  font-size: 1.2rem;
+  color: #213037;
+}
+
+.opp_filmlink {
+  font-family: Avenir;
+  text-transform: uppercase;
+  color: #213037;
+  margin: auto;
+  margin-bottom: 1.9rem;
+  font-weight: bolder;
+  letter-spacing: .05rem;
+  font-size: 1.1rem;
+}
+
+.section_title {
+  font-family: Aleo;
+  font-weight: 900;
+  font-size: 3.5rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 #other-pages {
