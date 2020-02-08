@@ -255,9 +255,9 @@ nav a {
 .col {
   border: none;
   width: 30%;
-  margin: auto;
+  margin: 1rem;
   height: 100%;
-  background-color:white;
+  background-color: white;
   display: flex;
   flex-direction: column;
 }
@@ -272,19 +272,21 @@ nav a {
   font-family: Aleo;
   font-weight: 900;
   margin: auto;
-  font-size: 1.9rem;
+  font-size: 2.2rem;
   color: #213037;
-  margin-top: 1.5rem;
-  margin-bottom: .6rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.2rem;
 }
 
 .opp_text {
   font-family: Avenir;
-  font-weight: bold;
-  line-height: 1.8rem;
+  font-weight: 600;
+  line-height: 1.9rem;
   margin: 2.5rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #213037;
+  letter-spacing: .08rem;
+  margin-top: inherit;
 }
 
 .opp_filmlink {
@@ -298,12 +300,43 @@ nav a {
   font-size: 1.1rem;
 }
 
-.section_title {
+#opp_section_title {
   font-family: Aleo;
   font-weight: 900;
   font-size: 3.5rem;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 5rem;
+  color: #213037;
+}
+
+#more_section_title {
+  font-family: Aleo;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #213037;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
+
+.more_link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #213037;
+}
+
+#more_icon1 {
+  background: url(img/icons/schedule.png) no-repeat;
+}
+#more_icon2 {
+  background: url(img/icons/hammer.png) no-repeat;
+}
+#more_icon3 {
+  background: url(img/icons/briefcase.png) no-repeat;
+}
+.more_icon {
+  float: left;
+  width: 10px;
+  height: 40px;
 }
 
 #other-pages {
@@ -312,9 +345,11 @@ nav a {
 }
 
 #other-pages div {
-  border: 1px solid black;
   margin: 5px;
-  padding: 5px;
+  padding: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background: white;
 }
 
 /* FOOTER */
