@@ -16,7 +16,6 @@
 
 /* GENERAL STYLES */
 
-
 html,
 body {
   width: 100%;
@@ -282,7 +281,7 @@ nav a {
   margin: 2.5rem;
   font-size: 1.5rem;
   color: #213037;
-  letter-spacing: .08rem;
+  letter-spacing: 0.08rem;
   margin-top: inherit;
 }
 
@@ -293,7 +292,7 @@ nav a {
   margin: auto;
   margin-bottom: 1.9rem;
   font-weight: bolder;
-  letter-spacing: .05rem;
+  letter-spacing: 0.05rem;
   font-size: 1.1rem;
 }
 
@@ -323,10 +322,8 @@ nav a {
 }
 
 .more_icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   max-width: 3rem;
+  display: inline;
 }
 
 #other-pages {
@@ -334,16 +331,16 @@ nav a {
   flex-direction: row;
 }
 
-#other-pages div {
-  margin: 5px;
-  padding: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+#other-pages a {
+  display: flex;
+  align-items: center;
+  margin: 5px 1rem;
   background: white;
-  max-height: 8rem;
-  max-width: 10rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+#other-pages img {
+  margin: 5px;
 }
 
 /* FOOTER */
