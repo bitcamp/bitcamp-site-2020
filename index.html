@@ -58,22 +58,39 @@
     <meta name="theme-color" content="#ffffff" />
     <!-- Facebook Pixel Code -->
     <script>
-      !function (f, b, e, v, n, t, s) {
-        if (f.fbq) return; n = f.fbq = function () {
-          n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      !(function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
         };
-        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-        n.queue = []; t = b.createElement(e); t.async = !0;
-        t.src = v; s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-      }(window, document, 'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '475265253377658');
-      fbq('track', 'PageView');
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "475265253377658");
+      fbq("track", "PageView");
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=475265253377658&ev=PageView&noscript=1" /></noscript>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=475265253377658&ev=PageView&noscript=1"
+    /></noscript>
     <!-- End Facebook Pixel Code -->
   </head>
   <body>
@@ -171,7 +188,7 @@
       <h1 id="opp_section_title">Opportunities for all</h1>
       <div id="paths">
         <div class="col">
-          <img src="img/placeholder.png" alt="hardware logo" class="opp_img"/>
+          <img src="img/placeholder.png" alt="hardware logo" class="opp_img" />
           <h2 class="opp_subtitle">Hardware Village</h2>
           <p class="opp_text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -185,7 +202,7 @@
           <a href="#" class="opp_filmlink">Watch the film</a>
         </div>
         <div class="col">
-          <img src="img/placeholder.png" alt="colorwar logo" class = "opp_img"/>
+          <img src="img/placeholder.png" alt="colorwar logo" class="opp_img" />
           <h2 class="opp_subtitle">Colorwar</h2>
           <p class="opp_text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -199,7 +216,7 @@
           <a href="#" class="opp_filmlink">Watch the film</a>
         </div>
         <div class="col">
-          <img src="img/placeholder.png" alt="design logo" class = "opp_img"/>
+          <img src="img/placeholder.png" alt="design logo" class="opp_img" />
           <h2 class="opp_subtitle">Design Den</h2>
           <p class="opp_text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -215,9 +232,30 @@
       </div>
       <h1 id="more_section_title">More to explore</h1>
       <div id="other-pages">
-        <a href="#" class="more_link"><div><img src="img/icons/schedule.png" alt="schedule" class="more_icon" align="middle"/>Schedule</div></a>
-        <a href="#" class="more_link"><div><img src="img/icons/hammer.png" alt="workshops" class="more_icon" align="middle"/>Workshops</div></a>
-        <a href="#" class="more_link"><div><img src="img/icons/briefcase.png" alt="sponsors" class="more_icon" align="middle"/>Sponsors</div></a>
+        <a href="#" class="more_link"
+          ><img
+            src="img/icons/schedule.png"
+            alt="schedule"
+            class="more_icon"
+            align="middle"
+          />Schedule</a
+        >
+        <a href="#" class="more_link"
+          ><img
+            src="img/icons/hammer.png"
+            alt="workshops"
+            class="more_icon"
+            align="middle"
+          />Workshops</a
+        >
+        <a href="#" class="more_link"
+          ><img
+            src="img/icons/briefcase.png"
+            alt="sponsors"
+            class="more_icon"
+            align="middle"
+          />Sponsors</a
+        >
       </div>
     </section>
     <footer id="footer">
