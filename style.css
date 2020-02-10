@@ -79,16 +79,18 @@ nav {
   text-transform: uppercase;
 
   font-weight: 700;
+  background: black;
 }
 
 nav div {
   display: inline-block;
+  margin: 20px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  margin: 5px;
+  margin: 5px 20px;
 }
 
 /* HERO */
