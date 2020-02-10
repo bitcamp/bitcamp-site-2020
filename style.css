@@ -25,6 +25,43 @@ body {
   font-family: "Avenir";
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  html {
+    font-size: 12px;
+  }
+
+  nav {
+    display: none !important;
+  }
+
+  #teams,
+  #paths,
+  #other-pages,
+  #footer {
+    flex-direction: column !important;
+  }
+
+  #info {
+    flex-direction: column-reverse !important;
+  }
+
+  #info-text,
+  #teams-text,
+  .col {
+    max-width: 90% !important;
+    width: 90% !important;
+  }
+
+  #info-img {
+    margin-top: 10px;
+  }
+
+  #info-text {
+    margin: 30px 0px !important;
+  }
+}
+
 .orange-info {
   color: #ff6f3f;
   font-weight: 800;
@@ -75,6 +112,7 @@ nav a {
     url("./img/loh-laugh-noise.jpg");
 
   background-size: cover;
+  background-position: center bottom;
 }
 
 #hero h1 {
@@ -187,7 +225,7 @@ nav a {
 }
 
 #teams p {
-  font-size: 32px;
+  font-size: 1.3rem;
 }
 
 #teams a {
