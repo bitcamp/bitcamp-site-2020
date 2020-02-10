@@ -388,10 +388,12 @@ nav a {
 footer {
   display: flex;
   border-top: 1px solid black;
+  padding-top: 20px;
   background: #eaebe6;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 700;
 }
 
 footer #footer-emails {
@@ -410,6 +412,7 @@ footer .email-pair {
 
 footer .email-name {
   display: block;
+  text-transform: uppercase;
 }
 
 footer .spacer {
@@ -423,13 +426,23 @@ footer a:visited {
   text-decoration: none;
 }
 
+#footer-links a {
+  margin: 5px 0px;
+}
+
 footer .email {
   color: #ff6f3f !important;
 }
 
 #social {
-  padding-top: 32px;
-  height: 58px;
+  height: 44px;
+}
+
+#social a {
+  margin: 0px;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
 }
 
 #footer-logo img {
@@ -438,8 +451,8 @@ footer .email {
 }
 
 .social-icon {
-  width: 42px;
-  height: 42px;
+  width: 36px;
+  height: 36px;
 
   padding: 4px;
 
@@ -448,8 +461,8 @@ footer .email {
 }
 
 .social-icon:hover {
-  width: 50px;
-  height: 50px;
+  width: 44px;
+  height: 44px;
 
   padding: 0px;
 
