@@ -503,13 +503,15 @@ nav a {
 
 footer {
   display: flex;
-  border-top: 1px solid black;
+  border-top: 3px solid #d1d1d6;
   padding-top: 20px;
   background: #eaebe6;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   font-weight: 700;
+
+  color: #1a2e33;
 }
 
 #footer-emails {
@@ -538,7 +540,7 @@ footer .spacer {
 footer a,
 footer a:link,
 footer a:visited {
-  color: black;
+  color: #1a2e33;
   text-decoration: none;
 }
 
@@ -548,6 +550,8 @@ footer a:visited {
 
 footer .email {
   color: #ff6f3f !important;
+  font-family: "Aleo";
+  font-size: 1.05rem;
 }
 
 #social {
@@ -591,11 +595,6 @@ footer .email {
 }
 
 .social-icon:hover {
-  width: 44px;
-  height: 44px;
-
-  padding: 0px;
-
   opacity: 1;
-  transition: opacity 0.2s, padding 0.2s, width 0.2s, height 0.2s;
+  transition: opacity 0.2s;
 }
