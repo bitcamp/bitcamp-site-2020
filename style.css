@@ -118,6 +118,11 @@ body {
   #mobile-nav-logo {
     width: 80vw;
   }
+
+  footer #footer-emails {
+    flex-direction: column !important;
+    flex-wrap: none !important;
+  }
 }
 
 .orange-info {
