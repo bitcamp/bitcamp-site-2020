@@ -316,7 +316,7 @@ nav a {
 /* TEAMS */
 #teams {
   width: 100%;
-  min-height: 80vh;
+  min-height: 60vh;
   height: 100%;
   background: #eaebe6;
 
@@ -354,7 +354,7 @@ nav a {
 /* PRESS */
 #press {
   width: 100%;
-  min-height: 50vh;
+  min-height: 40vh;
   height: 100%;
   background: #ff6f3f;
   color: white;
@@ -364,6 +364,7 @@ nav a {
 }
 
 #press-content {
+  margin: auto 0px;
   width: 80%;
 }
 
@@ -435,7 +436,8 @@ nav a {
   margin-top: inherit;
 }
 
-.opp_filmlink {
+.opp_filmlink,
+.na {
   font-family: AvenirHeavy;
   text-transform: uppercase;
   color: #213037;
@@ -444,6 +446,10 @@ nav a {
   font-weight: bolder;
   letter-spacing: 0.05rem;
   font-size: 1.1rem;
+}
+
+.na {
+  cursor: not-allowed;
 }
 
 #opp_section_title {
