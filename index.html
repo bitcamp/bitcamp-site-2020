@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Bitcamp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -94,6 +94,7 @@
         src="https://www.facebook.com/tr?id=475265253377658&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
+    <meta charset="utf8" />
   </head>
   <body>
     <nav id="nav">
@@ -275,6 +276,9 @@
       </div>
     </section>
     <footer id="footer">
+      <div class="expand" id="footer-expand-down" onclick="hideFooter()">
+        v
+      </div>
       <div id="footer-emails">
         <div class="email-pair">
           <span class="email-name">General Inquiries</span>
@@ -324,6 +328,12 @@
       <div class="spacer"></div>
       <div id="footer-logo">
         <img src="./img/badge.png" alt="Bitcamp Fire" />
+      </div>
+      <div class="expand" id="footer-expand-up" onclick="showFooter()">
+        ^
+      </div>
+      <div id="footer-logo-mobile">
+        <img src="./img/logotype.png" alt="Bitcamp Workmark" />
       </div>
     </footer>
     <script src="./script.js"></script>
