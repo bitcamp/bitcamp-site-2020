@@ -376,6 +376,11 @@ nav a {
   font-size: 2rem;
 }
 
+#press h2 {
+  font-family: "Aleo";
+  font-size: 1.4rem;
+}
+
 #press p {
   font-size: 1.5rem;
 }
