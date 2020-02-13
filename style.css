@@ -107,7 +107,7 @@ body {
 
 .modal-body h2 {
   font-family: "Aleo";
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
 }
@@ -131,7 +131,6 @@ body {
 
   font-size: 1.3rem;
   display: block;
-  font-weight: 700;
   padding: 1rem 0.5rem;
   line-height: 1.3rem;
 
