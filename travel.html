@@ -100,9 +100,16 @@
   </head>
 
   <body>
-    <nav>
-      <!-- TODO: Copy navbar from index when fully styled -->
-      NAVBAR
+    <nav id="nav" class="nav-scrolled pr">
+      <div>
+        <a href="./schedule.html">Schedule</a>
+        <a href="./workshops.html">Workshops</a>
+      </div>
+      <img src="./img/logotype.png" />
+      <div>
+        <a href="./sponsors.html">Sponsors</a>
+        <a href="https://my.bit.camp">Account</a>
+      </div>
     </nav>
     <div id="travel-body">
       <h1>Traveling to and from Bitcamp</h1>
@@ -174,8 +181,68 @@
         </div>
       </section>
     </div>
-    <footer>
-      <!-- TODO: Add footer from main page -->
+    <footer id="footer">
+      <div class="expand" id="footer-expand-down" onclick="hideFooter()">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div id="footer-emails">
+        <div class="email-pair">
+          <span class="email-name">General Inquiries</span>
+          <a href="mailto:hello@bit.camp" class="email">hello@bit.camp</a>
+        </div>
+        <div class="email-pair">
+          <span class="email-name">Sponsor us</span>
+          <a href="mailto:sponsorship@bit.camp" class="email"
+            >sponsorship@bit.camp</a
+          >
+        </div>
+        <div class="email-pair">
+          <span class="email-name">Public Relations</span>
+          <a href="mailto:marketing@bit.camp" class="email"
+            >marketing@bit.camp</a
+          >
+        </div>
+        <div class="email-pair">
+          <span class="email-name">Leadership</span>
+          <a href="mailto:directors@bit.camp" class="email"
+            >directors@bit.camp</a
+          >
+        </div>
+      </div>
+      <div id="footer-links">
+        <a href="#"
+          >Sponsorship prospectus <i class="fas fa-chevron-right"></i
+        ></a>
+        <a href="#">Brand guidelines <i class="fas fa-chevron-right"></i></a>
+        <a href="#">MLH Code of Conduct <i class="fas fa-chevron-right"></i></a>
+        <div id="social">
+          <a href="https://www.facebook.com/bitcmp">
+            <img src="./img/icons/fb.png" class="social-icon" />
+          </a>
+          <a href="https://twitter.com/bitcmp">
+            <img src="./img/icons/twitter.png" class="social-icon" />
+          </a>
+          <a href="https://www.instagram.com/bitcamp">
+            <img src="./img/icons/ig.png" class="social-icon" />
+          </a>
+          <a href="https://www.snapchat.com/add/bitcamp">
+            <img src="./img/icons/snap.png" class="social-icon" />
+          </a>
+          <a href="https://medium.com/@bitcmp">
+            <img src="./img/icons/medium.png" class="social-icon" />
+          </a>
+        </div>
+      </div>
+      <div class="spacer"></div>
+      <div id="footer-logo">
+        <img src="./img/badge.png" alt="Bitcamp Fire" />
+      </div>
+      <div class="expand" id="footer-expand-up" onclick="showFooter()">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <div id="footer-logo-mobile">
+        <img src="./img/logotype.png" alt="Bitcamp Workmark" />
+      </div>
     </footer>
   </body>
 </html>
