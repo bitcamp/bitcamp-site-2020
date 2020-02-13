@@ -170,6 +170,25 @@ body {
     display: inline;
   }
 
+  .modal {
+    width: 90vw;
+    height: 90vh;
+    overflow: scroll;
+  }
+
+  .modal-head {
+    width: auto;
+  }
+
+  .modal-body {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .modal-col {
+    width: 80vw;
+  }
+
   #mobile-hamburger {
     width: 100%;
     position: absolute;
