@@ -59,4 +59,16 @@ $(document).ready(() => {
       .eq(1)
       .text(text === "+" ? "-" : "+");
   });
+
+  var scroll_start = 0;
+  var startchange = $("#info");
+  var offset = startchange.offset();
+  $(document).scroll(function() {
+    scroll_start = $(this).scrollTop();
+    if (scroll_start > offset.top) {
+      $("nav").addClass("nav-scrolled");
+    } else {
+      $("nav").removeClass("nav-scrolled");
+    }
+  });
 });
