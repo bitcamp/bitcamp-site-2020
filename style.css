@@ -516,7 +516,7 @@ nav a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 1rem;
 }
 
 #paths {
@@ -587,7 +587,7 @@ nav a {
   color: #213037;
 }
 
-#more_section_title {
+#explore-more h1 {
   font-family: Aleo;
   font-weight: 900;
   font-size: 3.5rem;
@@ -607,6 +607,16 @@ nav a {
 .more_icon {
   max-width: 3rem;
   display: inline;
+}
+
+#explore-more {
+  width: 100%;
+  height: 100%;
+  background: #eaebe6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6rem;
 }
 
 #other-pages {
@@ -724,4 +734,48 @@ footer .email {
 .social-icon:hover {
   opacity: 1;
   transition: opacity 0.2s;
+}
+
+#faqs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#faqs-body {
+  display: flex;
+  width: 80vw;
+
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* Accordian */
+.faq {
+  width: 40%;
+  margin: 10px;
+}
+
+.accordian {
+  background: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.accordian h4 {
+  display: inline;
+  max-width: 100%;
+  margin: 0px;
+}
+
+.panel {
+  display: none;
+  background: white;
+  padding: 10px;
+}
+
+.panel p {
+  margin: 0px;
 }

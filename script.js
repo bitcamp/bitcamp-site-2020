@@ -43,3 +43,20 @@ function hideModal() {
   document.getElementById("body").style.overflow = "auto";
   document.getElementById("modal-bg").style.display = "none";
 }
+
+$(document).ready(() => {
+  $(".accordian").click(function() {
+    $(this)
+      .next(".panel")
+      .toggle(100);
+
+    const text = $(this)
+      .children("h4")
+      .eq(1)
+      .text();
+    $(this)
+      .children("h4")
+      .eq(1)
+      .text(text === "+" ? "-" : "+");
+  });
+});
