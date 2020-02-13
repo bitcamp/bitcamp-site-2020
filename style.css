@@ -2,16 +2,33 @@
 @font-face {
   font-family: "Avenir";
   src: url("fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/AvenirHeavy/Avenir-Heavy.otf") format("opentype");
+
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Aleo";
   src: url("fonts/Aleo/Aleo-Regular.otf") format("opentype");
+
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: "AvenirHeavy";
-  src: url("fonts/AvenirHeavy/Avenir-Heavy.otf") format("opentype");
+  font-family: "Aleo";
+  src: url("fonts/Aleo/Aleo-Bold.otf") format("opentype");
+
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* GENERAL STYLES */
@@ -24,7 +41,7 @@ body {
   background: #eaebe6;
   font-family: "Avenir";
 
-  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
 .mobile {
@@ -361,7 +378,7 @@ nav a {
 
 #hero h1 {
   font-family: "Aleo";
-  font-weight: 800;
+  font-weight: 900;
 }
 
 /* INFO */
@@ -566,7 +583,8 @@ nav a {
 
 .opp_filmlink,
 .na {
-  font-family: AvenirHeavy;
+  font-family: "Avenir";
+  font-weight: 900;
   text-transform: uppercase;
   color: #213037;
   margin: auto;
@@ -602,7 +620,8 @@ nav a {
   text-decoration: none;
   font-size: 2rem;
   color: #213037;
-  font-family: AvenirHeavy;
+  font-family: "Avenir";
+  font-weight: 900;
 }
 
 .more_icon {
@@ -743,6 +762,10 @@ footer .email {
   flex-direction: column;
 }
 
+#faqs h1 {
+  font-family: "Aleo";
+}
+
 #faqs-body {
   display: flex;
   width: 80vw;
@@ -755,6 +778,7 @@ footer .email {
 .faq {
   width: 40%;
   margin: 10px;
+  color: #1a2e33;
 }
 
 .accordian {
@@ -774,7 +798,7 @@ footer .email {
 .panel {
   display: none;
   background: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 .panel p {
@@ -821,7 +845,7 @@ footer .email {
 #wip-body a:visited {
   margin-top: 3rem;
   text-decoration: none;
-  color: black;
+  color: #1a2e33;
   font-size: 1.8rem;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #1a2e33;
 }
