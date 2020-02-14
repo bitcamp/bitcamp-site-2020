@@ -144,7 +144,7 @@ body {
 
 #modal-close {
   font-size: 2rem;
-  color: #1A2E33;
+  color: #1a2e33;
 }
 /* Mobile */
 
@@ -211,7 +211,6 @@ body {
   .col {
     margin: auto !important;
     margin-top: 1rem !important;
-
   }
 
   .faq {
@@ -625,7 +624,7 @@ nav a {
   font-size: 2.2rem;
   color: #213037;
   margin-top: 2rem;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 
 .opp_text {
@@ -645,9 +644,9 @@ nav a {
   text-transform: uppercase;
 
   text-decoration: none;
-  border-bottom: 4px solid #1A2E33;
+  border-bottom: 4px solid #1a2e33;
 
-  color: #1A2E33;
+  color: #1a2e33;
   margin: auto;
   margin-bottom: 1.9rem;
   font-weight: bolder;
@@ -664,14 +663,14 @@ nav a {
   font-weight: 900;
   font-size: 3.5rem;
   margin-top: 5rem;
-  color: #1A2E33;
+  color: #1a2e33;
 }
 
 #explore-more h1 {
   font-family: Aleo;
   font-weight: 900;
   font-size: 3.5rem;
-  color: #1A2E33;
+  color: #1a2e33;
   margin: auto;
   margin-top: 5rem;
   margin-bottom: 1.5rem;
@@ -680,7 +679,7 @@ nav a {
 .more_link {
   text-decoration: none;
   font-size: 2rem;
-  color: #1A2E33;
+  color: #1a2e33;
   font-family: "Avenir";
   font-weight: 900;
 }
