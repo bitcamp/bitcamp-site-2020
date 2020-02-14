@@ -205,11 +205,34 @@ body {
     width: 80vw;
   }
 
+  /* MOBILE STYLING FIXES */
   .col {
     margin: auto !important;
     margin-top: 1rem !important;
 
   }
+
+  .faq {
+    width: 100% !important;
+  }
+
+  #faqs-body {
+    width: 95vw !important;
+  }
+
+  #faqs h1 {
+    text-align: center !important;
+  }
+
+  #teams h2 {
+    text-align: center !important;
+  }
+
+  #opp_section_title {
+    text-align: center !important;
+  }
+
+  /* END OF MOBILE STYLING FIXES */
 
   #mobile-hamburger {
     width: 100%;
