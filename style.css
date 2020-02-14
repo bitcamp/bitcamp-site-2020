@@ -205,6 +205,12 @@ body {
     width: 80vw;
   }
 
+  .col {
+    margin: auto !important;
+    margin-top: 1rem !important;
+
+  }
+
   #mobile-hamburger {
     width: 100%;
     position: absolute;
