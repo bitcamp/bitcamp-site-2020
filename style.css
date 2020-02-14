@@ -38,6 +38,7 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+  color: #1a2e33;
   background: #eaebe6;
   font-family: "Avenir";
 
@@ -130,6 +131,7 @@ body {
   width: 80%;
 
   font-size: 1.3rem;
+  font-weight: 600;
   display: block;
   padding: 1rem 0.5rem;
   line-height: 1.3rem;
@@ -142,7 +144,7 @@ body {
 
 #modal-close {
   font-size: 2rem;
-  color: black;
+  color: #1A2E33;
 }
 /* Mobile */
 
@@ -274,7 +276,7 @@ body {
   }
 
   #mobile-nav a {
-    color: black;
+    color: #1a2e33;
     text-decoration: none;
   }
 
@@ -372,7 +374,7 @@ nav img {
 }
 
 .nav-scrolled a {
-  color: black;
+  color: #1a2e33;
 }
 
 .nav-scrolled img {
@@ -462,16 +464,17 @@ nav a {
 }
 
 #info p {
-  font-size: 1.3rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
 #info a {
   text-decoration: none;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #1a2e33;
 
-  color: black;
-  font-size: 1.8rem;
+  color: #1a2e33;
+  font-size: 1.4rem;
   font-weight: 700;
 }
 
@@ -504,6 +507,7 @@ nav a {
 
 #explore p {
   font-size: 1.4rem;
+  line-height: 1.7rem;
   max-width: 80%;
   margin: 0 auto;
   font-weight: 400;
@@ -512,7 +516,7 @@ nav a {
 /* TEAMS */
 #teams {
   width: 100%;
-  min-height: 60vh;
+  min-height: 70vh;
   height: 100%;
   background: #eaebe6;
 
@@ -523,7 +527,7 @@ nav a {
 
 #teams h2 {
   font-family: "Aleo";
-  font-size: 4rem;
+  font-size: 3.5rem;
   margin: 0;
 }
 
@@ -533,11 +537,12 @@ nav a {
 }
 
 #teams p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 #teams a {
-  color: black;
+  color: #1a2e33;
   font-size: 2.7rem;
 }
 
@@ -550,7 +555,7 @@ nav a {
 /* PRESS */
 #press {
   width: 100%;
-  min-height: 40vh;
+  min-height: 55vh;
   height: 100%;
   background: #ff6f3f;
   color: white;
@@ -565,20 +570,17 @@ nav a {
 }
 
 #press h3 {
-  font-size: 2.3rem;
-}
-
-#press h3 {
-  font-size: 2rem;
+  font-size: 1.1rem;
 }
 
 #press h2 {
   font-family: "Aleo";
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
 #press p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 /* OTHER */
@@ -617,23 +619,22 @@ nav a {
 }
 
 .opp_subtitle {
-  font-family: Aleo;
+  font-family: "Aleo";
   font-weight: 900;
   margin: auto;
   font-size: 2.2rem;
   color: #213037;
-  margin-top: 3.5rem;
-  margin-bottom: 1.2rem;
+  margin-top: 2rem;
+  margin-bottom: .8rem;
 }
 
 .opp_text {
-  font-family: Avenir;
-  font-weight: 600;
-  line-height: 1.9rem;
+  font-family: "Avenir";
+  font-weight: 200;
+  line-height: 1.5rem;
   margin: 2.5rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: #213037;
-  letter-spacing: 0.08rem;
   margin-top: inherit;
 }
 
@@ -642,7 +643,11 @@ nav a {
   font-family: "Avenir";
   font-weight: 900;
   text-transform: uppercase;
-  color: #213037;
+
+  text-decoration: none;
+  border-bottom: 4px solid #1A2E33;
+
+  color: #1A2E33;
   margin: auto;
   margin-bottom: 1.9rem;
   font-weight: bolder;
@@ -659,14 +664,14 @@ nav a {
   font-weight: 900;
   font-size: 3.5rem;
   margin-top: 5rem;
-  color: #213037;
+  color: #1A2E33;
 }
 
 #explore-more h1 {
   font-family: Aleo;
   font-weight: 900;
   font-size: 3.5rem;
-  color: #213037;
+  color: #1A2E33;
   margin: auto;
   margin-top: 5rem;
   margin-bottom: 1.5rem;
@@ -675,7 +680,7 @@ nav a {
 .more_link {
   text-decoration: none;
   font-size: 2rem;
-  color: #213037;
+  color: #1A2E33;
   font-family: "Avenir";
   font-weight: 900;
 }
@@ -683,6 +688,7 @@ nav a {
 .more_icon {
   max-width: 3rem;
   display: inline;
+  margin-right: 1rem;
 }
 
 #explore-more {
@@ -708,10 +714,6 @@ nav a {
   padding: 0.5rem 2rem;
 }
 
-#other-pages img {
-  margin: 5px;
-}
-
 /* FOOTER */
 
 footer {
@@ -723,6 +725,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   font-weight: 700;
+
+  padding-bottom: 100px;
 
   color: #1a2e33;
 }
@@ -764,7 +768,7 @@ footer a:visited {
 footer .email {
   color: #ff6f3f !important;
   font-family: "Aleo";
-  font-size: 1.05rem;
+  font-size: 1.2rem;
 }
 
 #social {
@@ -779,7 +783,6 @@ footer .email {
 }
 
 #footer-logo img {
-  width: 128px;
   height: 128px;
 }
 
@@ -820,6 +823,7 @@ footer .email {
 
 #faqs h1 {
   font-family: "Aleo";
+  font-size: 3.5rem;
 }
 
 #faqs-body {
@@ -859,6 +863,8 @@ footer .email {
 
 .panel p {
   margin: 0px;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 #wip-body {
