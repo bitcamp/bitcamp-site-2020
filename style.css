@@ -913,6 +913,8 @@ footer .email {
   font-weight: 700;
 }
 
-#workshop-form a {
+#workshop-form a,
+#workshop-form a:link,
+#workshop-form a:visited {
   font-size: 1rem !important;
 }
