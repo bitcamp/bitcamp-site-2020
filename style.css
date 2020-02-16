@@ -906,9 +906,11 @@ footer .email {
 #wip-body a:visited {
   margin-top: 3rem;
   text-decoration: none;
+  border-bottom: 4px solid #1a2e33;
+
   color: #1a2e33;
-  font-size: 1.8rem;
-  border-bottom: 3px solid #1a2e33;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 #workshop-form a {
