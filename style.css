@@ -1,7 +1,7 @@
 /* FONTS */
 @font-face {
   font-family: "Avenir";
-  src: url("fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
+  src: url("./assets/fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
 
   font-weight: 400;
   font-style: normal;
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "Avenir";
-  src: url("fonts/AvenirHeavy/Avenir-Heavy.otf") format("opentype");
+  src: url("./assets/fonts/AvenirHeavy/Avenir-Heavy.otf") format("opentype");
 
   font-weight: 900;
   font-style: normal;
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: "Aleo";
-  src: url("fonts/Aleo/Aleo-Regular.otf") format("opentype");
+  src: url("./assets/fonts/Aleo/Aleo-Regular.otf") format("opentype");
 
   font-weight: 400;
   font-style: normal;
@@ -25,7 +25,7 @@
 
 @font-face {
   font-family: "Aleo";
-  src: url("fonts/Aleo/Aleo-Bold.otf") format("opentype");
+  src: url("./assets/fonts/Aleo/Aleo-Bold.otf") format("opentype");
 
   font-weight: 700;
   font-style: normal;
