@@ -35,13 +35,13 @@ function hideFooter() {
 }
 
 function showModal() {
-  document.getElementById("body").style.overflow = "hidden";
-  document.getElementById("modal-bg").style.display = "flex";
+  $("#modal-holder").show(250);
+  $("body").addClass("overflow-none");
 }
 
 function hideModal() {
-  document.getElementById("body").style.overflow = "auto";
-  document.getElementById("modal-bg").style.display = "none";
+  $("#modal-holder").hide(250);
+  $("body").removeClass("overflow-none");
 }
 
 $(document).ready(() => {
