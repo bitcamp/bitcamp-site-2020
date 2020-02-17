@@ -583,7 +583,7 @@ nav a {
 }
 
 /* OTHER */
-#other {
+#opportunities {
   width: 100%;
   min-height: 100vh;
   height: 100%;
@@ -637,8 +637,7 @@ nav a {
   margin-top: inherit;
 }
 
-.opp_filmlink,
-.na {
+.opp_filmlink {
   font-family: "Avenir";
   font-weight: 900;
   text-transform: uppercase;
@@ -654,12 +653,8 @@ nav a {
   font-size: 1.1rem;
 }
 
-.na {
-  cursor: not-allowed;
-}
-
-#opp_section_title {
-  font-family: Aleo;
+#opportunities h1 {
+  font-family: "Aleo";
   font-weight: 900;
   font-size: 3.5rem;
   margin-top: 5rem;
