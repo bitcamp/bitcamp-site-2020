@@ -913,3 +913,7 @@ footer .email {
 #workshop-form a:visited {
   font-size: 1rem !important;
 }
+
+.accordian {
+  cursor: pointer;
+}
