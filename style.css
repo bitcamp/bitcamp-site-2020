@@ -414,7 +414,7 @@ nav a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: url("./img/loh-laugh-noise.jpg");
+  background: url("./img/hero.jpg");
   background-size: cover;
   background-position: center bottom;
 }
@@ -489,7 +489,7 @@ nav a {
   min-height: 80vh;
   height: 100%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./img/Edited-3373.jpg");
+    url("./img/explore-bg.jpg");
   background-size: cover;
   background-position: center bottom;
   display: flex;
