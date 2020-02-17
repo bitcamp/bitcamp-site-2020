@@ -178,6 +178,16 @@ body {
     flex-direction: column-reverse !important;
   }
 
+  #hero {
+    background-position: left bottom !important;
+  }
+
+  #teams-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   #info-text,
   #teams-text,
   .col {
@@ -669,6 +679,7 @@ nav a {
   font-size: 3.5rem;
   margin-top: 5rem;
   color: #1a2e33;
+  text-align: center;
 }
 
 #explore-more h1 {
