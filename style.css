@@ -38,10 +38,11 @@ body {
   width: 100%;
   margin: 0px;
   padding: 0px;
+
   color: #1a2e33;
   background: #eaebe6;
-  font-family: "Avenir";
 
+  font-family: "Avenir";
   -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
@@ -408,6 +409,12 @@ nav a {
 
 /* HERO */
 #hero {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
   width: 100%;
   min-height: 100vh;
   height: 100%;
@@ -415,10 +422,6 @@ nav a {
   color: white;
   font-size: 4rem;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   background: url("./img/hero.jpg");
   background-size: cover;
   background-position: center bottom;
@@ -427,14 +430,14 @@ nav a {
 #hero a,
 #hero a:link,
 #hero a:visited {
-  color: white;
   margin-bottom: 30px;
-
   border-bottom: 4px solid white;
+
+  color: white;
+
   font-size: 1.6rem;
   font-weight: 800;
   text-decoration: none;
-
   text-transform: uppercase;
 }
 
@@ -445,15 +448,17 @@ nav a {
 
 /* INFO */
 #info {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
   width: 100%;
   min-height: 70vh;
   height: 100%;
   margin: 20px 0px;
-  background: #eaebe6;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: #eaebe6;
 }
 
 #info h2 {
