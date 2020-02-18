@@ -323,6 +323,8 @@ body {
   #footer-logo-mobile {
     display: flex !important;
     align-items: center;
+    width: 70vw;
+    margin: 10px auto;
   }
 
   .expand {
@@ -863,6 +865,8 @@ footer .email {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+
+  min-height: 4rem;
 }
 
 .accordian h4 {
