@@ -865,8 +865,6 @@ footer .email {
   display: flex;
   justify-content: space-between;
   padding: 10px;
-
-  min-height: 4rem;
 }
 
 .accordian h4 {
