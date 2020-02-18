@@ -373,7 +373,7 @@ nav {
 
 .nav-scrolled {
   position: fixed;
-  box-shadow: 0px 0px 20px 1px #999999;
+  box-shadow: 0px 0px 20px 1px #000;
   background: white;
 }
 
@@ -431,9 +431,11 @@ nav a {
 #hero a:link,
 #hero a:visited {
   margin-bottom: 30px;
-  border-bottom: 4px solid white;
+  padding: 1rem;
+  box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.8);
 
   color: white;
+  background: #ff6f3f;
 
   font-size: 1.6rem;
   font-weight: 800;
