@@ -178,6 +178,16 @@ body {
     flex-direction: column-reverse !important;
   }
 
+  #hero {
+    background-position: left bottom !important;
+  }
+
+  #teams-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   #info-text,
   #teams-text,
   .col {
@@ -313,6 +323,8 @@ body {
   #footer-logo-mobile {
     display: flex !important;
     align-items: center;
+    width: 70vw;
+    margin: 10px auto;
   }
 
   .expand {
@@ -672,6 +684,7 @@ nav a {
   font-size: 3.5rem;
   margin-top: 5rem;
   color: #1a2e33;
+  text-align: center;
 }
 
 #explore-more h1 {
@@ -831,6 +844,7 @@ footer .email {
 #faqs h1 {
   font-family: "Aleo";
   font-size: 3.5rem;
+  text-align: center;
 }
 
 #faqs-body {
