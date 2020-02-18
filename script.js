@@ -71,4 +71,13 @@ $(document).ready(() => {
       $("nav").removeClass("nav-scrolled");
     }
   });
+
+  $("#modal-bg")
+    .click(() => {
+      hideModal();
+    })
+    .children()
+    .click(function(e) {
+      e.stopPropagation();
+    });
 });
