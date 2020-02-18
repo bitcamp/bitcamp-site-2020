@@ -367,6 +367,12 @@ body {
 
 .bold {
   font-weight: 800;
+  color: white;
+  text-decoration: none;
+}
+
+.home-link {
+  text-transform: uppercase;
 }
 
 /* NAV */
@@ -520,6 +526,12 @@ nav a {
   justify-content: center;
   text-align: center;
   color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+  #explore {
+    min-height: 60vh !important;
+  }
 }
 
 #explore h1 {
@@ -848,7 +860,7 @@ footer .email {
 
 #faqs-body {
   display: flex;
-  width: 80vw;
+  width: 85vw;
 
   flex-flow: row wrap;
   justify-content: center;
@@ -856,7 +868,7 @@ footer .email {
 
 /* Accordian */
 .faq {
-  width: 40%;
+  width: 45%;
   margin: 10px;
   color: #1a2e33;
 }
