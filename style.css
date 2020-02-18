@@ -839,6 +839,7 @@ footer .email {
 #faqs h1 {
   font-family: "Aleo";
   font-size: 3.5rem;
+  text-align: center;
 }
 
 #faqs-body {
