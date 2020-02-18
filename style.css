@@ -391,7 +391,7 @@ nav {
 
 .nav-scrolled {
   position: fixed;
-  box-shadow: 0px 0px 20px 1px #000;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.3);
   background: white;
 }
 
@@ -456,7 +456,7 @@ nav a {
   color: white;
   background: #ff6f3f;
 
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 800;
   text-decoration: none;
   text-transform: uppercase;
