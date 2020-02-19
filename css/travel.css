@@ -1,20 +1,20 @@
 #travel-body {
   display: flex;
   flex-direction: column;
-
+  margin: auto;
   align-items: center;
+  margin-bottom: 20px;
 }
 
-.travel-icon i {
-  font-size: 2rem;
-  line-height: 64px;
-  background: #ff6f3f;
-  color: white;
-  border-radius: 50%;
+#travel-body a {
+  color: #ff6f3f;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.travel-icon img {
   width: 64px;
   height: 64px;
-  display: block;
-  text-align: center;
 }
 
 .travel-method {
@@ -31,13 +31,18 @@
 #routes {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 #routes div {
   background: white;
   flex-basis: 45%;
   margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* pos relative */
