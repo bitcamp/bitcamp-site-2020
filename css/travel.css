@@ -31,13 +31,13 @@
 #routes {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
+}
+
+#routes img {
+  width: 30rem;
 }
 
 #routes div {
-  background: white;
-  flex-basis: 45%;
   margin-bottom: 20px;
   padding: 10px;
   display: flex;
