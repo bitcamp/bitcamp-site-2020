@@ -319,6 +319,7 @@ body {
   #footer-logo-mobile {
     display: flex !important;
     align-items: center;
+    justify-content: center;
     width: 70vw;
     margin: 10px auto;
   }
@@ -347,6 +348,7 @@ body {
 
   #footer {
     border: none;
+    margin: auto;
   }
 
   footer #footer-emails,
