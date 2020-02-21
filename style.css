@@ -792,6 +792,10 @@ footer .spacer {
   flex-grow: 1;
 }
 
+#nav-right {
+  margin-right: 200px;
+}
+
 footer a,
 footer a:link,
 footer a:visited {
@@ -1007,5 +1011,26 @@ footer .email {
   #mobile-footer-contact-us {
     display: block;
     margin: auto;
+  }
+}
+
+#mlh-trust-badge {
+  display: block;
+  max-width: 100px;
+  min-width: 60px;
+  position: fixed;
+  right: 50px;
+  top: 0;
+  width: 10%;
+  z-index: 10000;
+}
+
+#mlh-trust-badge:hover {
+  filter: brightness(120%);
+}
+
+@media only screen and (max-width: 768px) {
+  #mlh-trust-badge {
+    display: none;
   }
 }
