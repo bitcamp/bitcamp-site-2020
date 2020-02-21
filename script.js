@@ -24,6 +24,8 @@ function showFooter() {
 
   document.getElementById("footer-expand-up").style.display = "none";
   document.getElementById("footer-expand-down").style.display = "flex";
+
+  $("#mobile-footer-contact-us").hide();
 }
 
 function hideFooter() {
@@ -32,6 +34,8 @@ function hideFooter() {
 
   document.getElementById("footer-expand-up").style.display = "flex";
   document.getElementById("footer-expand-down").style.display = "none";
+
+  $("#mobile-footer-contact-us").show();
 }
 
 function showModal() {
