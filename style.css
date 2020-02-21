@@ -344,6 +344,7 @@ body {
 
   footer #footer-expand-up {
     display: flex;
+    font-size: 1.5rem;
   }
 
   #footer {

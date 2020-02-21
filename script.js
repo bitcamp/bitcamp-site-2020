@@ -19,8 +19,20 @@ function hideNav() {
 }
 
 function showFooter() {
-  document.getElementById("footer-links").style.display = "inline-flex";
-  document.getElementById("footer-emails").style.display = "inline-flex";
+  $("#footer-emails").slideDown({
+    start: function() {
+      $(this).css({
+        display: "inline-flex"
+      });
+    }
+  });
+  $("#footer-links").slideDown({
+    start: function() {
+      $(this).css({
+        display: "inline-flex"
+      });
+    }
+  });
 
   document.getElementById("footer-expand-up").style.display = "none";
   document.getElementById("footer-expand-down").style.display = "flex";
@@ -29,8 +41,20 @@ function showFooter() {
 }
 
 function hideFooter() {
-  document.getElementById("footer-links").style.display = "none";
-  document.getElementById("footer-emails").style.display = "none";
+  $("#footer-emails").slideUp({
+    end: function() {
+      $(this).css({
+        display: "none"
+      });
+    }
+  });
+  $("#footer-links").slideUp({
+    end: function() {
+      $(this).css({
+        display: "none"
+      });
+    }
+  });
 
   document.getElementById("footer-expand-up").style.display = "flex";
   document.getElementById("footer-expand-down").style.display = "none";
