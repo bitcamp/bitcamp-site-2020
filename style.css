@@ -185,7 +185,7 @@ body {
   }
 
   #hero {
-    background-position: left bottom !important;
+    background-position: right bottom !important;
   }
 
   #teams-text {
@@ -290,7 +290,7 @@ body {
   #mobile-nav {
     display: none;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background: #eaebe6;
     position: fixed;
     flex-direction: column;
@@ -352,6 +352,10 @@ body {
   footer #footer-emails,
   footer #footer-links {
     display: none;
+  }
+
+  #explore p {
+    margin: 0px 14px !important;
   }
 }
 
@@ -426,7 +430,7 @@ nav a {
   display: flex;
 
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 
   width: 100%;
@@ -436,8 +440,7 @@ nav a {
   color: white;
   font-size: 4rem;
 
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url("./img/hero.jpg");
+  background: url("./img/explore-bg.jpg");
   background-size: cover;
   background-position: center bottom;
 }
@@ -517,7 +520,8 @@ nav a {
   width: 100%;
   min-height: 80vh;
   height: 100%;
-  background: url("./img/explore-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("./img/hero.jpg");
   background-size: cover;
   background-position: center bottom;
   display: flex;
@@ -989,4 +993,15 @@ footer .email {
   height: 6rem !important;
   display: flex;
   align-items: center;
+}
+
+#mobile-footer-contact-us {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #mobile-footer-contact-us {
+    display: block;
+    margin: auto;
+  }
 }
