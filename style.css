@@ -1,4 +1,4 @@
-/* FONTS */
+/* Begin Fonts */
 @font-face {
   font-family: "Avenir";
   src: url("./assets/fonts/Avenir/AvenirLTStd-Book.otf") format("opentype");
@@ -31,7 +31,9 @@
   font-style: normal;
 }
 
-/* GENERAL STYLES */
+/* End Fonts */
+
+/* Begin Global Styles */
 
 html,
 body {
@@ -46,15 +48,17 @@ body {
   -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
-.mobile {
-  display: none;
-}
-
-/* Modal */
 .overflow-none {
   overflow: hidden;
 }
 
+.mobile {
+  display: none;
+}
+
+/* End Global Styles */
+
+/* Begin Modal */
 #modal-holder {
   display: none;
 }
@@ -155,14 +159,27 @@ body {
   font-size: 2rem;
   color: #1a2e33;
 }
+/* End Modal */
+
+/* Begin */
+/* End */
+
+/* Begin */
+/* End */
+
+/* Begin */
+/* End */
+
+/* Begin */
+/* End */
+
+/* Begin */
+/* End */
+
+/* Begin */
+/* End */
+
 /* Mobile */
-
-@media only screen and (max-height: 700px) {
-  #hero h1 {
-    margin-top: 35vh !important;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   html {
