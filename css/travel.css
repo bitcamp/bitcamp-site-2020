@@ -50,15 +50,36 @@ h3 {
 }
 
 #routes img {
-  width: 30rem;
+  width: 100%;
 }
 
 #routes div {
-  margin-bottom: 20px;
-  padding: 10px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#routes div {
+  flex-basis: calc(50% - 20px);
+}
+
+@media only screen and (min-width: 1200px) {
+  #routes div {
+    max-width: 500px !important;
+  }
+
+  #routes {
+    max-width: 1000px;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #routes div {
+    max-width: 500px !important;
+    width: 500px;
+  }
 }
 
 /* pos relative */
@@ -68,4 +89,38 @@ h3 {
 
 footer {
   margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .travel-method {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  #routes {
+    width: 100%;
+    margin: auto;
+  }
+
+  #routes img {
+    width: auto !important;
+  }
+
+  #routes div {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    width: 100%;
+    margin: 10px 0px;
+    flex-basis: auto;
+  }
+
+  .travel-method > div {
+    width: 100%;
+  }
 }
