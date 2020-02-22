@@ -278,7 +278,7 @@ body {
   }
 
   #hero {
-    background-position: right bottom !important;
+    background-position: right -265px bottom !important;
   }
 
   #teams-text {
