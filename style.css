@@ -472,6 +472,10 @@ nav {
   background: white;
 }
 
+.nav-scrolled #nav-right {
+  margin-right: 0px;
+}
+
 .nav-scrolled a {
   color: #1a2e33;
 }
@@ -883,6 +887,10 @@ footer .spacer {
   #nav-right {
     margin-right: 150px;
   }
+
+  #nav-left {
+    margin-left: 0px;
+  }
 }
 
 footer a,
@@ -1054,7 +1062,7 @@ footer .email {
   display: block;
   max-width: 100px;
   min-width: 60px;
-  position: fixed;
+  position: absolute;
   right: 50px;
   top: 0;
   width: 10%;
