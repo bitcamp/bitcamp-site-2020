@@ -258,6 +258,10 @@ body {
     display: none !important;
   }
 
+  #hero {
+    padding-top: 10vh;
+  }
+
   #teams,
   #paths,
   #other-pages,
