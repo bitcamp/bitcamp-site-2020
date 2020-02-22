@@ -424,7 +424,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 70vw;
-    margin: 10px auto;
+    margin: 20px auto 10px auto;
   }
 
   .expand {
@@ -436,7 +436,7 @@ body {
   .expand::after {
     content: "";
     flex: 1;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #d1d1d6;
   }
   .expand::before {
     margin-right: 0.25em;
@@ -453,6 +453,7 @@ body {
   #footer {
     border: none;
     margin: auto;
+    padding-bottom: 40px !important;
   }
 
   footer #footer-emails,
