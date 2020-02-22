@@ -460,6 +460,11 @@ body {
     display: none;
   }
 
+  #social {
+    display: none;
+    margin: 0px auto;
+  }
+
   #explore p {
     margin: 0px 14px !important;
   }
@@ -534,7 +539,7 @@ nav a {
   color: white;
   font-size: 4rem;
 
-  background: url("./img/explore-bg.jpg");
+  background: url("./assets/bgs/bitcamp-2018.jpg");
   background-size: cover;
   background-position: center bottom;
 }
@@ -859,7 +864,7 @@ footer {
   border-top: 3px solid #d1d1d6;
   padding-top: 20px;
   background: #eaebe6;
-  width: 90%;
+  justify-content: space-evenly;
   margin-left: auto;
   margin-right: auto;
   font-weight: 700;
@@ -867,11 +872,13 @@ footer {
   padding-bottom: 100px;
 
   color: #1a2e33;
+
+  max-width: 90vw;
 }
 
 #footer-emails {
   display: inline-flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 #footer-links {
@@ -880,7 +887,8 @@ footer {
 }
 
 footer .email-pair {
-  flex-basis: 45%;
+  flex-basis: calc(50% - 20px);
+  margin: 10px;
 }
 
 footer .email-name {
