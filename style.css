@@ -475,6 +475,7 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   position: absolute;
   font-size: 20px;
@@ -745,7 +746,7 @@ nav a {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 85vw;
 }
 
 .col {
