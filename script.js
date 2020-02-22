@@ -33,6 +33,13 @@ function showFooter() {
       });
     }
   });
+  $("#social").slideDown({
+    start: function() {
+      $(this).css({
+        display: "inline-flex"
+      });
+    }
+  });
 
   document.getElementById("footer-expand-up").style.display = "none";
   document.getElementById("footer-expand-down").style.display = "flex";
@@ -55,7 +62,13 @@ function hideFooter() {
       });
     }
   });
-
+  $("#social").slideUp({
+    end: function() {
+      $(this).css({
+        display: "none"
+      });
+    }
+  });
   document.getElementById("footer-expand-up").style.display = "flex";
   document.getElementById("footer-expand-down").style.display = "none";
 
