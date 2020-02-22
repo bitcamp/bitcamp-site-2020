@@ -389,10 +389,9 @@ body {
     position: fixed;
     flex-direction: column;
 
-    justify-content: space-between;
+    justify-content: flex-start;
 
     align-items: center;
-    padding-top: 2rem;
 
     font-size: 2rem;
   }
@@ -400,9 +399,14 @@ body {
   #mobile-nav a {
     color: #1a2e33;
     text-decoration: none;
+
+    margin: 2rem 0px;
+    font-weight: 900;
   }
 
   #mobile-nav-logo {
+    margin-top: 7rem;
+    margin-bottom: 2rem;
     width: 80vw;
   }
 
