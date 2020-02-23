@@ -44,14 +44,21 @@
       }
     </script>
     <!-- End Google JSON-LD -->
-    <title>Bitcamp</title>
+
+    <!-- Begin Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Bitcamp</title>
+
+    <!-- End Meta -->
+
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
     />
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/nav.css" />
     <link href="./assets/fonts/font-awesome/css/all.css" rel="stylesheet" />
     <link
       rel="shortcut icon"
@@ -261,9 +268,19 @@
         <a href="https://my.bit.camp">Account</a>
       </div>
     </nav>
-    <div id="mobile-hamburger" class="mobile">
+    <div id="mobile-hamburger" class="mobile-navbar mobile">
       <img
         src="./assets/mobile/menu-light.png"
+        onclick="showNav()"
+        alt="Hamburger Menu Icon"
+      />
+    </div>
+    <div
+      id="mobile-nav-scrolled"
+      class="mobile-navbar nav-scrolled mobile hide"
+    >
+      <img
+        src="./assets/mobile/menu-dark.png"
         onclick="showNav()"
         alt="Hamburger Menu Icon"
       />

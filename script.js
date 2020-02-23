@@ -108,8 +108,10 @@ $(document).ready(() => {
     scroll_start = $(this).scrollTop();
     if (scroll_start > offset.top) {
       $("nav").addClass("nav-scrolled");
+      $("#mobile-nav-scrolled").removeClass("hide");
     } else {
       $("nav").removeClass("nav-scrolled");
+      $("#mobile-nav-scrolled").addClass("hide");
     }
   });
 

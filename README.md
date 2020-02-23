@@ -1,2 +1,1 @@
-# Bitcamp 2020 Sleeper Site
-![Screenshot]()
+# Bitcamp 2020 Site
