@@ -81,7 +81,7 @@ nav a {
 }
 
 #mobile-nav-scrolled .logo {
-  max-height: 80%;
+  height: 34px !important;
   width: auto;
   margin: 0px;
   margin-left: 5rem;
