@@ -35,6 +35,10 @@
 
 /* Begin Global Styles */
 
+.mobile {
+  display: none;
+}
+
 html,
 body {
   width: 100%;
@@ -50,10 +54,6 @@ body {
 
 .overflow-none {
   overflow: hidden;
-}
-
-.mobile {
-  display: none;
 }
 
 .hide {

@@ -105,9 +105,11 @@ $(document).ready(() => {
     if (scroll_start > offset.top) {
       $("nav").addClass("nav-scrolled");
       $("#mobile-nav-scrolled").removeClass("hide");
+      $("#mobile-nav-scrolled").addClass("mobile-nav-scrolled");
     } else {
       $("nav").removeClass("nav-scrolled");
       $("#mobile-nav-scrolled").addClass("hide");
+      $("#mobile-nav-scrolled").removeClass("mobile-nav-scrolled");
     }
   });
 
