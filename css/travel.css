@@ -117,10 +117,6 @@ footer {
     margin: auto;
   }
 
-  #routes img {
-    width: auto !important;
-  }
-
   #routes div {
     min-width: 100% !important;
     max-width: 100% !important;
