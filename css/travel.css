@@ -4,6 +4,8 @@
   margin: auto;
   align-items: center;
   margin-bottom: 20px;
+
+  padding-top: 70px;
 }
 
 #travel-body a {
@@ -127,5 +129,9 @@ footer {
 
   .travel-method > div {
     width: 100%;
+  }
+
+  #travel-body {
+    padding-top: 0px;
   }
 }
