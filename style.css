@@ -72,6 +72,10 @@ body {
   text-decoration: none;
 }
 
+.current-page {
+  border-bottom: 4px solid #1a2e33;
+}
+
 /* End Global Styles */
 
 /* Begin Modal */
