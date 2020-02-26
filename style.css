@@ -987,3 +987,10 @@ footer .email {
     right: 20px;
   }
 }
+
+#workshop-form a {
+  text-decoration: none !important;
+  border-bottom: 0px !important;
+  color: #ff6f3f !important;
+  font-weight: 500 !important;
+}
