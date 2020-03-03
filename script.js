@@ -72,12 +72,16 @@ function hideFooter() {
 }
 
 function showModal() {
-  $("#modal-holder").show(250);
+  $("#modal-holder")
+    .show(250)
+    .attr("aria-hidden", "false");
   $("body").addClass("overflow-none");
 }
 
 function hideModal() {
-  $("#modal-holder").hide(250);
+  $("#modal-holder")
+    .hide(250)
+    .attr("aria-hidden", "true");
   $("body").removeClass("overflow-none");
 }
 
