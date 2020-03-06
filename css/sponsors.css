@@ -1,5 +1,7 @@
 #sponsor-body {
   padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
 }
 
 #logos {
@@ -47,4 +49,15 @@
 
   width: 330px;
   height: 330px;
+}
+
+#sponsor-us {
+  margin: auto auto 35px auto;
+  font-size: 1.2rem;
+}
+#sponsor-us a,
+#sponsor-us a:link,
+#sponsor-us a:hover {
+  color: #ff6f3f;
+  text-decoration: none;
 }
