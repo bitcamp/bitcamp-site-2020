@@ -25,44 +25,22 @@
   margin-bottom: 5rem;
 }
 
-.sponsor-tier {
-  width: 90vw;
-}
-
-.sponsor-tier h2 {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-.sponsor-tier h2::before,
-.sponsor-tier h2::after {
-  content: "";
-  flex: 1;
-  border-bottom: 2px solid #d1d1d6;
-}
-.sponsor-tier h2::before {
-  margin-right: 1rem;
-}
-.sponsor-tier h2::after {
-  margin-left: 1rem;
-}
-
-.brand-logos {
+#logos {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.brand-logos img {
+#logos img {
   height: 110px;
-  margin: 20px;
+  margin: 20px 30px;
 
   transition: all 0.2s ease-out;
 }
 
-.brand-logos img:hover {
+#logos img:hover {
   height: 130px !important;
-  margin: 10px;
+  margin: 10px 0px;
 
   transition: all 0.2s ease-out;
 }
