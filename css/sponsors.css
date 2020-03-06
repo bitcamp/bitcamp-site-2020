@@ -32,15 +32,19 @@
 }
 
 #logos img {
-  height: 110px;
-  margin: 20px 30px;
+  width: 300px;
+  height: 300px;
+
+  margin: 15px 50px;
 
   transition: all 0.2s ease-out;
 }
 
 #logos img:hover {
-  height: 130px !important;
-  margin: 10px 0px;
-
   transition: all 0.2s ease-out;
+
+  margin: 0px 35px;
+
+  width: 330px;
+  height: 330px;
 }
