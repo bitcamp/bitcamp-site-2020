@@ -26,8 +26,36 @@ nav div {
 
 nav a {
   color: white;
+  border-bottom: 4px solid rgba(255, 255, 255, 0);
   text-decoration: none;
   margin: 5px 20px;
+  transition: border-bottom 0.25s;
+}
+
+nav a:hover {
+  border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+  transition: border-bottom 0.25s;
+}
+
+#nav-logo {
+  border-bottom: none;
+}
+
+#nav-logo:hover {
+  border-bottom: none;
+}
+
+.nav-scrolled a:hover {
+  border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+.nav-scrolled img {
+  transition: opacity 0.25s;
+}
+
+.nav-scrolled img:hover {
+  transition: opacity 0.25s;
+  opacity: 0.5;
 }
 
 .nav-scrolled {

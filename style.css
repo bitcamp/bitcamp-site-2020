@@ -105,6 +105,7 @@ body {
 
 .modal-head {
   margin: 20px;
+  margin-bottom: 10px;
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -144,6 +145,7 @@ body {
   font-weight: 700;
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
+  margin-top: 0px;
 }
 
 .modal-body p {
@@ -153,6 +155,7 @@ body {
 .register-icon {
   width: 82px;
   height: 82px;
+  margin: 12px;
 }
 
 .modal .button {
@@ -417,7 +420,8 @@ body {
   }
 
   #explore img {
-    width: 250px !important;
+    width: 325px !important;
+    margin-bottom: 20px;
   }
 }
 
@@ -524,7 +528,7 @@ body {
 /* EXPLORE */
 #explore {
   width: 100%;
-  min-height: 80vh;
+  min-height: 70vh;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("./assets/bgs/theme-bg.jpg");
@@ -533,7 +537,7 @@ body {
   background-position: center center;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -541,7 +545,8 @@ body {
 }
 
 #explore img {
-  width: 350px;
+  width: 600px;
+  margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -562,9 +567,11 @@ body {
 /* TEAMS */
 #teams {
   width: 100%;
-  min-height: 70vh;
+  min-height: 55vh;
   height: 100%;
   background: #eaebe6;
+
+  margin-top: 20px;
 
   display: flex;
   justify-content: center;
@@ -593,16 +600,16 @@ body {
 }
 
 #teams img {
-  margin: 0 10%;
-  width: 80%;
+  margin: 0 20%;
+  width: 60%;
   height: auto;
 }
 
 /* PRESS */
 #press {
   width: 100%;
-  min-height: 55vh;
   height: 100%;
+  padding: 80px 0px;
   background: #ff6f3f;
   color: white;
 
@@ -805,6 +812,26 @@ footer a:link,
 footer a:visited {
   color: #1a2e33;
   text-decoration: none;
+  transition: opacity 0.25s;
+}
+
+#footer-emails a:hover {
+  opacity: 0.5;
+  transition: opacity 0.25s;
+}
+
+#footer-links a:hover {
+  opacity: 0.5;
+  transition: opacity 0.25s;
+}
+
+.opp_filmlink {
+  transition: opacity 0.25s;
+}
+
+.opp_filmlink:hover {
+  opacity: 0.5;
+  transition: opacity 0.25s;
 }
 
 #footer-links a {
