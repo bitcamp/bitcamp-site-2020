@@ -128,5 +128,9 @@ $(document).ready(() => {
 });
 
 function hideFS() {
-  $("#fullscreen").remove();
+  $("#fullscreen").hide();
+}
+
+function showFS() {
+  $("#fullscreen").show();
 }
