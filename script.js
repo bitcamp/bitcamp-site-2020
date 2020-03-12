@@ -126,3 +126,7 @@ $(document).ready(() => {
       e.stopPropagation();
     });
 });
+
+function hideFS() {
+  $("#fullscreen").remove();
+}
