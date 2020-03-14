@@ -89,7 +89,7 @@ $(document).ready(() => {
   $(".accordian").click(function() {
     $(this)
       .next(".panel")
-      .toggle(100);
+      .slideToggle(100);
 
     const text = $(this)
       .children("h4")
