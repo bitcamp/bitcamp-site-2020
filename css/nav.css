@@ -12,6 +12,10 @@ nav {
   background: transparent;
 }
 
+nav.announce {
+  margin-top: 4rem;
+}
+
 nav img {
   display: none;
   height: 100%;

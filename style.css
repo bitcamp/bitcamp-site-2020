@@ -1076,6 +1076,7 @@ footer .email {
 #fs-close:link,
 #fs-close:visited {
   color: #1a2e33;
+  font-size: 1.5rem;
   margin: 2rem;
 }
 
