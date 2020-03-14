@@ -1034,7 +1034,7 @@ footer .email {
 }
 
 #fullscreen h1 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   text-align: center;
 }
 
@@ -1045,7 +1045,7 @@ footer .email {
 }
 
 #fullscreen p {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1064,7 +1064,7 @@ footer .email {
   }
 
   #fs-body {
-    max-width: 100vw;
+    max-width: 85vw;
   }
 }
 
